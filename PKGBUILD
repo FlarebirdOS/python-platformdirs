@@ -1,6 +1,6 @@
 pkgname=python-platformdirs
-pkgver=4.4.0
-pkgrel=1
+pkgver=4.5.0
+pkgrel=2
 pkgdesc="A library to determine platform-specific system directories"
 arch=('x86_64')
 url="https://github.com/tox-dev/platformdirs"
@@ -14,7 +14,7 @@ makedepends=(
     'python-hatch-vcs'
 )
 source=(git+ssh://git@github.com/tox-dev/platformdirs#tag=${pkgver})
-sha256sums=(1a8b4ecad7df48f3b68c77709f6b2c3c951f8705fe9b1f2a83b9c8e5dc11b733)
+sha256sums=(9cc50d3842ebb08103c6fb9bba26e55653455a1a902d8bbeb57659950b39ba65)
 
 build() {
     cd ${pkgname#*-}
